@@ -1,0 +1,20 @@
+{
+  "name": "my-gridsome-website",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-gtm": "^0.1.1"
+  },
+  "devDependencies": {
+    "@gridsome/remark-prismjs": "0.0.5",
+    "@gridsome/source-filesystem": "^0.3.0",
+    "@gridsome/transformer-remark": "^0.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
